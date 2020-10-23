@@ -1,0 +1,220 @@
+/* My Custom CSS */
+
+body {
+    background-color: beige;
+    padding-top: 25px;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800px
+}
+
+h3{
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+font-family: 'Raleway', sans-serif;
+}
+ul {
+    overflow: hidden
+}
+
+
+.jumbotron{
+    margin: auto;
+    background-color: crimson;
+    line-height: 1;
+    height: 170px;
+}
+
+.row{
+    padding: 15px;
+    height: 300px;
+    width: 100%;
+        
+}
+.headerimage{
+    display: block;
+    max-width: 100px;
+    height: auto;
+}
+
+.caption{
+    text-align: right;
+}
+
+.classes1 {
+    display: block;
+    margin-right: auto;
+    width: 600px;
+    height: 100%
+}
+
+.p-2 {
+    width: 600px;
+} 
+
+.footer {
+    background: #aaa;
+}
+    
+.footer
+.push{
+    height: 50px;
+    margin-top: 350px
+}
+
+.footer h3 {
+    text-align: center;
+    padding-top: 10px
+}
+
+.clearfix::after,
+.calendar ol::after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/*=====================
+Calendar Styling */
+.calendar {
+    border-radius: 60px;
+} 
+
+@media (min-width:992px) {
+    .date {
+        font-size: 3.5rem;
+    }
+}
+
+.calendar ol li {
+    float: left;
+    width: 14.28571%;
+} 
+
+.calendar .day-names {
+    border-bottom: 1px solid #eee;
+}
+
+.calendar .day-names li {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+    border-bottom: 1px solid #eee;
+    min-height: 8rem;
+}
+
+.calendar .days li .date {
+    margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+    font-size: 0.75rem;
+    padding: 0.4rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 4rem;
+    margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+    width: 200%
+}
+
+.calendar .days li .event.begin {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.calenday .days li .event .end {
+   border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event .clear {
+    background: none;
+}
+
+.calendar days li:nth-child(n+29) {
+    border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+    color: #ddd
+}
+
+.btn1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+}
+
+.btn2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+}
+
+.btn3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+}
+
+.btn4 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+}
+
+.btn5 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+}
